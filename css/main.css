@@ -1,0 +1,14 @@
+table {
+  border: solid black 2px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: solid grey 1px;
+  border-collapse: collapse;
+  width: 50px;
+  width: 70px;
+  text-align: center;
+  vertical-align: center;
+}

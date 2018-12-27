@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div>
+    <label>Select year <input type="number" id="selectYear" /> </label>
+    <label
+      >Select month
+      <select id="selectMonth">
+        <option>january</option>
+        <option>february</option>
+        <option>march</option>
+        <option>april</option>
+        <option>may</option>
+        <option>june</option>
+        <option>july</option>
+        <option>august</option>
+        <option>september</option>
+        <option>october</option>
+        <option>november</option>
+        <option>december</option>
+      </select>
+    </label>
+  </div>
+  <br />
+  <div>
+    <input
+      type="button"
+      value="Create calendar"
+      onclick="createCalendar('caldiv')"
+    />
+  </div>
+  <br />
+  <script src="calendar.js"></script>
+</body>
